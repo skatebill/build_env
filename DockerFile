@@ -1,0 +1,4 @@
+from gcc:9.2.0
+ADD ./data/ /root/
+WORKDIR /root
+RUN bash build.sh
